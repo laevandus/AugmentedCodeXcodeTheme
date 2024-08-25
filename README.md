@@ -1,6 +1,6 @@
 # AugmentedCodeXcodeTheme
 
-Light theme for Xcode.
+Dark theme for Xcode.
 
 ![AugmentedCodeXcodeTheme](https://raw.github.com/laevandus/augmentedcodexcodetheme/master/Example.png)
 
