@@ -1,0 +1,24 @@
+# Augmented Code Dark — derived from the Xcode theme of the same name.
+background = #223842
+foreground = #F2F3E8
+cursor-color = #F4B73E
+cursor-text = #223842
+selection-background = #2F4E5D
+selection-foreground = #F2F3E8
+
+palette = 0=#18303A
+palette = 1=#F17693
+palette = 2=#97C3A1
+palette = 3=#FCB057
+palette = 4=#83BCFF
+palette = 5=#B39EE6
+palette = 6=#68C5DB
+palette = 7=#E6E8DF
+palette = 8=#53727D
+palette = 9=#FF8AA0
+palette = 10=#B1E7B8
+palette = 11=#FFD07B
+palette = 12=#A7D6FF
+palette = 13=#D0BEFF
+palette = 14=#8ADCF0
+palette = 15=#FFFFFF
