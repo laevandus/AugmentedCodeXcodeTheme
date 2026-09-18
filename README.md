@@ -3,6 +3,8 @@
 A unified dark theme for Xcode, Ghostty, Zed, and Oh My Zsh. It is derived from
 the Xcode **Augmented Code (Dark)** palette.
 
+![Augmented Code Dark theme example](Example.png)
+
 ## Install
 
 ```sh
@@ -33,11 +35,3 @@ settings.
 
   The prompt uses Powerline glyphs, so select a Nerd Font or another
   Powerline-capable font in your terminal.
-
-## Verify
-
-```sh
-sh tests/install_test.sh
-jq empty zed/augmented-code-dark.json
-zsh -n oh-my-zsh/augmented-code-dark.zsh-theme
-```
