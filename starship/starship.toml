@@ -1,0 +1,12 @@
+format = "$directory$git_branch$git_status$git_metrics$character"
+
+[directory]
+truncation_length = 0
+truncate_to_repo = false
+
+[git_status]
+format = "([$ahead_behind]($style) )"
+ahead = "⇡${count}"
+
+[git_metrics]
+disabled = false
