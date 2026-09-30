@@ -11,14 +11,19 @@ xcode_dir="$HOME/Library/Developer/Xcode/UserData/FontAndColorThemes"
 
 install -d "$config_dir" "$ghostty_dir" "$zed_dir" "$zsh_dir" "$xcode_dir"
 install -m 644 "$root/ghostty/Augmented Code Dark" "$ghostty_dir/Augmented Code Dark"
+install -m 644 "$root/ghostty/Augmented Code Light" "$ghostty_dir/Augmented Code Light"
 install -m 644 "$root/starship/starship.toml" "$HOME/.config/starship.toml"
 install -m 644 "$root/zed/augmented-code-dark.json" "$zed_dir/augmented-code-dark.json"
+install -m 644 "$root/zed/augmented-code-light.json" "$zed_dir/augmented-code-light.json"
 install -m 644 "$root/oh-my-zsh/augmented-code-dark.zsh-theme" "$zsh_dir/augmented-code-dark.zsh-theme"
+install -m 644 "$root/oh-my-zsh/augmented-code-light.zsh-theme" "$zsh_dir/augmented-code-light.zsh-theme"
 install -m 644 "$root/Augmented Code (Dark).xccolortheme" "$xcode_dir/Augmented Code (Dark).xccolortheme"
 install -m 644 "$root/Augmented Code (Dark).xcworkspacecolortheme" "$xcode_dir/Augmented Code (Dark).xcworkspacecolortheme"
+install -m 644 "$root/Augmented Code (Light).xccolortheme" "$xcode_dir/Augmented Code (Light).xccolortheme"
+install -m 644 "$root/Augmented Code (Light).xcworkspacecolortheme" "$xcode_dir/Augmented Code (Light).xcworkspacecolortheme"
 
 cat <<EOF
-Installed Augmented Code Dark.
+Installed Augmented Code Dark and Light (dark remains the default).
 
 Xcode: relaunch Xcode, then select “Augmented Code (Dark)” in Settings > Themes.
 Ghostty: add this line to your Ghostty config, then reload with Cmd-Shift-,:
@@ -27,6 +32,9 @@ Starship: add this line to ~/.zshrc, then start a new shell:
   eval "\$(starship init zsh)"
 Zed: choose “Augmented Code Dark” with Theme Selector (Cmd-K, Cmd-T).
 Oh My Zsh: set ZSH_THEME="augmented-code-dark" in ~/.zshrc, then start a new shell.
+
+To use Light, select “Augmented Code (Light)” in Xcode, “Augmented Code Light”
+in Ghostty or Zed, and augmented-code-light in Oh My Zsh.
 
 The Oh My Zsh prompt needs a Nerd Font or Powerline-capable font for its glyphs.
 EOF
