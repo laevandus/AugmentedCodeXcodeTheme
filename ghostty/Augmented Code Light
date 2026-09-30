@@ -1,0 +1,24 @@
+# Augmented Code Light — derived from the Xcode theme of the same name.
+background = #F6F0E0
+foreground = #423B2E
+cursor-color = #423B2E
+cursor-text = #F6F0E0
+selection-background = #DBD1B8
+selection-foreground = #423B2E
+
+palette = 0=#423B2E
+palette = 1=#C72E38
+palette = 2=#387845
+palette = 3=#CC8C0D
+palette = 4=#1A6BB8
+palette = 5=#7354AD
+palette = 6=#1A6E85
+palette = 7=#746D5E
+palette = 8=#8C826E
+palette = 9=#C72E0A
+palette = 10=#388040
+palette = 11=#D16B08
+palette = 12=#0D61D1
+palette = 13=#7354AD
+palette = 14=#1A7385
+palette = 15=#423B2E
